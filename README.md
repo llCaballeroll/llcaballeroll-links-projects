@@ -1,12 +1,15 @@
-# Luis Angel Caballero Jardón | Juegos y Libro
+# Luis Angel Caballero Jardón | Juegos, apps y libro
 
 Página web tipo Linktree creada para centralizar los accesos principales a mis proyectos digitales.
 
 ## Contenido
 
+- MUTA
+- Orbita – Wrist Browser (Apple Watch)
 - Snake Islands
 - Amon Oracle
 - Bounce Royale
+- Crazy Chicken (próximamente)
 - Libro: Sin Párpados
 - Contacto por WhatsApp
 - Redes sociales
@@ -21,7 +24,7 @@ Esta página está pensada para usarse con un código QR y redirigir a los usuar
 - CSS3
 - Diseño responsivo
 - Modo oscuro
-- Estilo visual inspirado en interfaces modernas tipo Apple
+- Estilo visual basado en la guía de diseño de Apple (awesome-design-md): tipografía SF, acento azul único, tarjetas con línea fina y animación suave
 
 ## Estructura del proyecto
 
@@ -31,6 +34,10 @@ llcaballeroll-links/
 ├── css/
 │   └── styles.css
 ├── img/
+│   ├── opt/            ← versiones ligeras que usa la página
+│   ├── juego-muta.png
+│   ├── app-orbita.png
+│   ├── juego-crazy-chicken.png
 │   ├── perfil.PNG
 │   ├── juego-snake-islands.png
 │   ├── juego-amon-oracle.png

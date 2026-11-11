@@ -2,134 +2,134 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="theme-color" content="#000000" />
 
-  <title>Luis Angel Caballero Jardón | Juegos y Libro</title>
+  <title>Luis Angel Caballero Jardón | Juegos, apps y libro</title>
+  <meta name="description" content="Accesos oficiales a mis juegos, apps, mi libro y contacto." />
 
-  <meta name="description" content="Accesos oficiales a mis juegos, mi libro y contacto." />
+  <meta property="og:title" content="Luis Angel Caballero Jardón" />
+  <meta property="og:description" content="Juegos, apps, historias y proyectos digitales." />
+  <meta property="og:image" content="img/opt/perfil.jpg" />
+  <meta property="og:type" content="website" />
 
   <link rel="stylesheet" href="css/styles.css" />
-  <link rel="icon" type="image/jpg" href="img/perfil.PNG" />
-  <link rel="apple-touch-icon" href="img/perfil.PNG" />
-
+  <link rel="icon" type="image/jpeg" href="img/opt/perfil.jpg" />
+  <link rel="apple-touch-icon" href="img/opt/apple-touch-icon.png" />
 </head>
 <body>
 
+  <div class="backdrop" aria-hidden="true"></div>
+
   <main class="page">
 
-    <section class="profile">
-      <div class="profile-glow"></div>
+    <header class="profile reveal">
+      <div class="profile-photo">
+        <span class="profile-glow" aria-hidden="true"></span>
+        <img src="img/opt/perfil.jpg" alt="Luis Angel Caballero Jardón" width="120" height="120" />
+      </div>
+      <h1>Luis Angel Caballero&nbsp;Jardón</h1>
+      <p class="subtitle">Juegos, apps, historias y proyectos digitales</p>
+    </header>
 
-      <img 
-        src="img/perfil.PNG" 
-        alt="Luis Angel Caballero Jardón" 
-        class="profile-img"
-      />
+    <!-- ===== Juegos y apps ===== -->
+    <section class="section" aria-labelledby="t-juegos">
+      <h2 id="t-juegos" class="section-title reveal">Juegos y apps</h2>
 
-      <h1>Luis Angel Caballero Jardón</h1>
-      <p class="subtitle">Juegos, historias y proyectos digitales</p>
+      <div class="grid">
+
+        <a href="https://llcaballeroll.github.io/muta_web/" class="card reveal" target="_blank" rel="noopener noreferrer">
+          <img src="img/opt/juego-muta.jpg" alt="" class="card-icon" width="72" height="72" loading="lazy" />
+          <div class="card-text">
+            <span class="badge badge-new">Nuevo</span>
+            <h3>MUTA</h3>
+            <p>Gira. Atrapa. Muta.</p>
+            <span class="platforms">Android · iPhone</span>
+          </div>
+          <svg class="chevron" viewBox="0 0 10 16" aria-hidden="true"><path d="M2 2l6 6-6 6" /></svg>
+        </a>
+
+        <a href="https://llcaballeroll.github.io/orbita_browser_web/" class="card reveal" target="_blank" rel="noopener noreferrer">
+          <img src="img/opt/app-orbita.jpg" alt="" class="card-icon card-icon-light" width="72" height="72" loading="lazy" />
+          <div class="card-text">
+            <span class="badge badge-new">Nuevo</span>
+            <h3>Orbita – Wrist Browser</h3>
+            <p>La web completa en tu Apple&nbsp;Watch.</p>
+            <span class="platforms">Apple Watch · iPhone</span>
+          </div>
+          <svg class="chevron" viewBox="0 0 10 16" aria-hidden="true"><path d="M2 2l6 6-6 6" /></svg>
+        </a>
+
+        <a href="https://llcaballeroll.github.io/snake_islands_web/" class="card reveal" target="_blank" rel="noopener noreferrer">
+          <img src="img/opt/juego-snake-islands.jpg" alt="" class="card-icon" width="72" height="72" loading="lazy" />
+          <div class="card-text">
+            <h3>Snake Islands</h3>
+            <p>Más que un clásico. Un nuevo desafío.</p>
+            <span class="platforms">iPhone · Android</span>
+          </div>
+          <svg class="chevron" viewBox="0 0 10 16" aria-hidden="true"><path d="M2 2l6 6-6 6" /></svg>
+        </a>
+
+        <a href="https://llcaballeroll.github.io/amon_oracle_web/" class="card reveal" target="_blank" rel="noopener noreferrer">
+          <img src="img/opt/juego-amon-oracle.jpg" alt="" class="card-icon" width="72" height="72" loading="lazy" />
+          <div class="card-text">
+            <h3>Amon Oracle</h3>
+            <p>El destino. Revelado por tu voz.</p>
+            <span class="platforms">iPhone · Android</span>
+          </div>
+          <svg class="chevron" viewBox="0 0 10 16" aria-hidden="true"><path d="M2 2l6 6-6 6" /></svg>
+        </a>
+
+        <a href="https://llcaballeroll.github.io/bounce_royale_web/" class="card reveal" target="_blank" rel="noopener noreferrer">
+          <img src="img/opt/juego-bounce-royale.jpg" alt="" class="card-icon" width="72" height="72" loading="lazy" />
+          <div class="card-text">
+            <h3>Bounce Royale</h3>
+            <p>El rey del rebote.</p>
+            <span class="platforms">iPhone · Android</span>
+          </div>
+          <svg class="chevron" viewBox="0 0 10 16" aria-hidden="true"><path d="M2 2l6 6-6 6" /></svg>
+        </a>
+
+        <div class="card card-soon reveal" aria-label="Crazy Chicken, próximamente">
+          <div class="card-icon-wrap">
+            <span class="soon-tag">Próximamente</span>
+            <img src="img/opt/juego-crazy-chicken.jpg" alt="" class="card-icon" width="72" height="72" loading="lazy" />
+          </div>
+          <div class="card-text">
+            <h3>Crazy Chicken</h3>
+            <p>Atrapa a la gallina más loca de la granja.</p>
+            <span class="platforms">En desarrollo</span>
+          </div>
+        </div>
+
+      </div>
     </section>
 
-    <section class="links">
+    <!-- ===== Libro ===== -->
+    <section class="section" aria-labelledby="t-libro">
+      <h2 id="t-libro" class="section-title reveal">Libro</h2>
 
-      <a 
-        href="https://llcaballeroll.github.io/snake_islands_web/" 
-        class="link-card" 
-        target="_blank" 
-        rel="noopener noreferrer"
-      >
-        <img 
-          src="img/juego-snake-islands.png" 
-          alt="Snake Islands" 
-          class="card-icon"
-        />
+      <a href="https://play.google.com/store/books/details/Luis_Angel_Caballero_Jardon_Sin_Parpados?id=oanBEQAAQBAJ&amp;hl=es_MX" class="card card-book reveal" target="_blank" rel="noopener noreferrer">
+        <img src="img/opt/libro-sin-parpados.jpg" alt="" class="book-cover" width="72" height="108" loading="lazy" />
         <div class="card-text">
-          <h2>Snake Islands</h2>
-          <p>Más que un clásico.
-Un nuevo desafío.</p>
+          <h3>Sin Párpados</h3>
+          <p>Disponible en Google Play Libros.</p>
+          <span class="link-text">Leer ahora</span>
         </div>
-        <span class="arrow">›</span>
+        <svg class="chevron" viewBox="0 0 10 16" aria-hidden="true"><path d="M2 2l6 6-6 6" /></svg>
       </a>
-
-      <a 
-        href="https://llcaballeroll.github.io/amon_oracle_web/" 
-        class="link-card" 
-        target="_blank" 
-        rel="noopener noreferrer"
-      >
-        <img 
-          src="img/juego-amon-oracle.png" 
-          alt="Amon Oracle" 
-          class="card-icon"
-        />
-        <div class="card-text">
-          <h2>Amon Oracle</h2>
-          <p>El destino.
-Revelado por tu voz.
-</p>
-        </div>
-        <span class="arrow">›</span>
-      </a>
-
-      <a 
-        href="https://llcaballeroll.github.io/bounce_royale_web/" 
-        class="link-card" 
-        target="_blank" 
-        rel="noopener noreferrer"
-      >
-        <img 
-          src="img/juego-bounce-royale.png" 
-          alt="Bounce Royale" 
-          class="card-icon"
-        />
-        <div class="card-text">
-          <h2>Bounce Royale</h2>
-          <p>El rey del rebote</p>
-        </div>
-        <span class="arrow">›</span>
-      </a>
-
-      <a 
-        href="https://play.google.com/store/books/details/Luis_Angel_Caballero_Jardon_Sin_Parpados?id=oanBEQAAQBAJ&hl=es_MX" 
-        class="link-card featured" 
-        target="_blank" 
-        rel="noopener noreferrer"
-      >
-        <img 
-          src="img/libro-sin-parpados.jpeg" 
-          alt="Sin Párpados" 
-          class="card-icon"
-        />
-        <div class="card-text">
-          <h2>Sin Párpados</h2>
-          <p>Libro disponible en Google Play</p>
-        </div>
-        <span class="arrow">›</span>
-      </a>
-
     </section>
 
-    <section class="contact">
-
-      <a 
-        href="https://wa.me/527221240597?text=Hola%20Luis%2C%20quiero%20contactarte%20por%20tus%20proyectos." 
-        class="contact-btn whatsapp-btn"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+    <!-- ===== Contacto ===== -->
+    <section class="contact reveal" aria-label="Contacto">
+      <a href="https://wa.me/527221240597?text=Hola%20Luis%2C%20quiero%20contactarte%20por%20tus%20proyectos." class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg>
         Contáctame por WhatsApp
       </a>
-      
-
-      <a 
-        href="https://llcaballeroll.github.io/llcaballeroll-social/" 
-        class="contact-btn social-btn"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a href="https://llcaballeroll.github.io/llcaballeroll-social/" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
         Redes sociales
       </a>
-
     </section>
 
     <footer>
@@ -138,5 +138,27 @@ Revelado por tu voz.
 
   </main>
 
+  <script>
+    // Aparición suave al hacer scroll (sin dependencias)
+    (function () {
+      var items = document.querySelectorAll('.reveal');
+      if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        items.forEach(function (el) { el.classList.add('is-visible'); });
+        return;
+      }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) {
+            var el = e.target;
+            el.classList.add('is-visible');
+            io.unobserve(el);
+            // Quita el retraso para que el hover/toque responda al instante
+            setTimeout(function () { el.style.transitionDelay = ''; }, 1100);
+          }
+        });
+      }, { rootMargin: '0px 0px -8% 0px' });
+      items.forEach(function (el, i) { el.style.transitionDelay = Math.min(i * 40, 320) + 'ms'; io.observe(el); });
+    })();
+  </script>
 </body>
 </html>
